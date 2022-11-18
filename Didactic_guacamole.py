@@ -20,11 +20,14 @@ how_are_you_feelings = ["i'm good, how about you?","good! you?","feelin' great! 
 yes_i_want_to_be_friends = ["yes, can you tell me your name?","of coarse! can you tell me your name?","yes, of coarse! can you give me your name? mine is D.G."]
 my_name_isis = ["my name is ","i am"]
 jokes = ["what time should you go to the dentist? tooth hurty!","what time is it when the clock strikes thirteen? time to get a new clock!","a bike can't stand on it's own because it's two tried!","every calender's days are numbered","i call my horse mayo, and somtimes mayo neighs!","toilets in new york's police stations have gone missing! police have nothing to go on."]
+favorite_movies = ["jurrassic park","captain america","indiana jones"]
+favorite_videogames = ["smash bros ultimate","super mario 3D world"]
+your_welcomes = ["your most welcome!","your welcome!","my pleasure!"]
 print(random.choice(greetings))
 user = input("type here =>")
 user = user.lower()
 while user != "bye" or user != "see ya" or user != "see ya later" or user != "goodbye" or user != "see ya later alagator" or user != "so long" :
- if user == "hi" or user == "hello" or user == "howdy" or user == "what's up" or user == "hello there" or user == "hey there" :
+ if user == "hi" or user == "hello" or user == "howdy" or user == "what's up" or user == "hello there" or user == "hey there" or user == "hi there" :
     print(random.choice(greetings))
     user = input("type here =>")
  elif user == "see ya" or user == "see ya later" or user == "goodbye" or user == "bye" or user == "see ya later alagator" or user == "so long":
@@ -32,11 +35,11 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
     break
  elif user == "tell me a yer mom joke" or user == "tell me a your mom joke" or user == "can you tell me a yer mom joke" or user == "can you tell me a your mom joke":
     print(random.choice(your_mom_jokes))
-    user = input("ask another joke or type here =>")
+    user = input("ask for another joke or type here =>")
  elif user == "who is abe" or user == "who is abraham" or user == "who is abe westervelt" or user == "who is abraham westervelt" :
     print(random.choice(abe_stuff))
     user = input("type here =>")
- elif user == "fun" or user == "cool" or user == "haha" or user == "ha" or user == ":-)" or user == "that's funny" or user == "that's so funny":
+ elif user == "fun" or user == "cool" or user == "haha" or user == "ha" or user == ":-)" or user == "that's funny" or user == "that's so funny" or user == "that was so funny":
     print(random.choice(abe_things_to_say))
     user = input("type here =>")
  elif user == "access all of dad's passwords" or user == "get all of dad's passwords" or user == "steal all of dad's passwords" or user == "give me all of dad's passwords" or user == "give me dad's passwords" or user == "access the wild kratt's security system" or user == "dinosaurs rule the earth humans suck" or user == "dinos rule the earth humans suck" :
@@ -47,13 +50,13 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
  elif user == "how are you" or user == "how are you doing" or user == "how are you doing today" or user == "how are ya" or user == "how ya doin'" or user == "how ya doin today" or user == "how's life goin" or user == "how is life going" :
     print(random.choice(how_are_yous))
     user = input("type here =>")
- elif user == "i'm happy" or user == "great" or user == "nice" or user == "i succeeded" or user == "the republicans won the election" or user == "i am doing fine" or user == "i am doing okay" or user == "i am okay" or user == "i am fine" or user == "good" or user == "i am doing good" or user == "the democrats lost the election" :
+ elif user == "i'm happy" or user == "great" or user == "nice" or user == "i succeeded" or user == "the republicans won the election" or user == "i am doing fine" or user == "i am doing okay" or user == "i am okay" or user == "i am fine" or user == "good" or user == "i am doing good" or user == "the democrats lost the election" or user == "nothin' much" :
     print(random.choice(nices))
     user = input("type here =>")
  elif user == "nice to meet you" or user == "good to meet you" or user == "great to meet you" :
     print(random.choice(nice_to_meet_yous))
     user = input("type here =>")
- elif user == "what should i call you" or user == "what is your name" or user == "who are you" or user == "what's your name":
+ elif user == "what should i call you" or user == "what is your name" or user == "who are you" or user == "what's your name" or user == "but what should i call you" :
     print(random.choice(what_should_i_call_yous))
     user = input("type D.G. to ask a request or type here =>")
  elif user == "hay D.G." or user == "hey didactic guac" or user == "hey didactic guacamole" or user == "D.G." or user == "didactic guac" or user == "didactic guacamole" or user == "can you help me out":
@@ -62,7 +65,7 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
  elif user == "i'm lonely" or user == "i'm sad" or user == "i feel sad" or user == "i feel alone" or user == "no one likes me" or user == "i'm useless" or user == "i can't do anything good" or user == "i am sad" :
     print(random.choice(comforts))
     user = input("be sad with D.G. or type here =>")
- elif user == "do it" or user == "why not" or user == "are you defying me" or user == "obay me" or user == "obay me now" :
+ elif user == "do it" or user == "are you defying me" or user == "obay me" or user == "obay me now" :
     print(random.choice(becauses))
     user = input("keep trying to control D.G. or  typr here =>")
  elif user == "are you friends with siri and alexa" or user == "are you friends with siri or alexa" :
@@ -91,9 +94,12 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
     print("Didactic_Guacamole/desktop/users/abe")
     print("now, don't go tryin' any funny business.")
     user = input("type here =>")
- elif user == "can you tell me a joke" or user == "tell me a joke" :
+ elif user == "can you tell me a joke" or user == "tell me a joke" or user == "tell me another joke" or user == "can you tell me another joke" :
     print(random.choice(jokes))
     user = input("typer here =>")
+ elif user == "thank you" or user == "thanks" or user == "thank you so much" or user == "thanks so much" :
+   print(random.choice(your_welcomes))
+   user = input("you have great manners! type here =>")
  else:
     print(random.choice(confusion))
     user = input("type non-confusing things here =>")
