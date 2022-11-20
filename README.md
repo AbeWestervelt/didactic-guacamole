@@ -28,8 +28,8 @@ Didactic Guacamole is just a kind AI that
 wants to do somthing good for the world.
 So please, don't get mad at a computer,
 it isn't really thinking for itself, 
-because it is a 30-somthin long 
-algotithim that was coded in about 2 hours 
+because it is a 100-somthin line long 
+algotithim that was coded in about 9 hours 
 by a 7th-grade boy.
 
 THANK YOU!
