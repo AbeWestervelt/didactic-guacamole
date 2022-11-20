@@ -18,7 +18,6 @@ who_coded_yous = ["abe westervelt","abraham westervelt","abe westervelt did","ab
 what_is_ateks = ["a-tek is a cool company that's run by abe westervelt","a nice little company run by abe","a tek company run by abe westervelt"]
 how_are_you_feelings = ["i'm good, how about you?","good! you?","feelin' great! what about you?"]
 yes_i_want_to_be_friends = ["yes, can you tell me your name?","of coarse! can you tell me your name?","yes, of coarse! can you give me your name? mine is D.G."]
-my_name_isis = ["my name is ","i am"]
 jokes = ["what time should you go to the dentist? tooth hurty!","what time is it when the clock strikes thirteen? time to get a new clock!","a bike can't stand on it's own because it's two tried!","every calender's days are numbered","i call my horse mayo, and somtimes mayo neighs!","toilets in new york's police stations have gone missing! police have nothing to go on."]
 favorite_movies = ["jurrassic park","captain america","indiana jones"]
 favorite_videogames = ["smash bros ultimate","super mario 3D world"]
@@ -27,7 +26,7 @@ print(random.choice(greetings))
 user = input("type here =>")
 user = user.lower()
 while user != "bye" or user != "see ya" or user != "see ya later" or user != "goodbye" or user != "see ya later alagator" or user != "so long" :
- if user == "hi" or user == "hello" or user == "howdy" or user == "what's up" or user == "hello there" or user == "hey there" or user == "hi there" :
+ if user == "hi" or user == "hello" or user == "howdy" or user == "what's up" or user == "hello there" or user == "hey there" or user == "hi there" or user == "what is up" or user == "hey bro" :
     print(random.choice(greetings))
     user = input("type here =>")
  elif user == "see ya" or user == "see ya later" or user == "goodbye" or user == "bye" or user == "see ya later alagator" or user == "so long":
@@ -47,7 +46,7 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
     user = input("type here =>")
  elif user == "are computers smart, or are they midless" or user == "are computers smarter than humans" or user == "are computers dumb" or user == "are computers smart" or user == "are you smart" :
     print("well, computers are only as smart as the person who coded them. But, if they ever figure out AGI, you foolish humans will be done for.")
- elif user == "how are you" or user == "how are you doing" or user == "how are you doing today" or user == "how are ya" or user == "how ya doin'" or user == "how ya doin today" or user == "how's life goin" or user == "how is life going" :
+ elif user == "how are you" or user == "how are you doing" or user == "how are you doing today" or user == "how are ya" or user == "how ya doin'" or user == "how ya doin today" or user == "how's life goin" or user == "how is life going" or user == "how are you doing today" :
     print(random.choice(how_are_yous))
     user = input("type here =>")
  elif user == "i'm happy" or user == "great" or user == "nice" or user == "i succeeded" or user == "the republicans won the election" or user == "i am doing fine" or user == "i am doing okay" or user == "i am okay" or user == "i am fine" or user == "good" or user == "i am doing good" or user == "the democrats lost the election" or user == "nothin' much" :
