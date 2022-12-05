@@ -2,7 +2,7 @@ import random
 greetings = ["hello","hi","howdy","what's up","hello there","bonjour","hola","hey there"]
 goodbyes = ["see ya","see ya later","goodbye", "bye","see ya later alagator","so long"]
 your_mom_jokes = ["your mama is so stupid, she thought javascript and java were tha same thing!","your mama is so fat, that thanos had to clap!","your mama is so ugly, she looked in the mirror, and she thought it was you!"]
-confusion = ["sorry, I don't understand","i'm cofused","didn't catch that","what?"]
+confusion = ["sorry, I don't understand","i'm confused","didn't catch that","what?"]
 abe_stuff = ["Abe is a cool dude. He does coding every day, working on me, making me smarter.","ya, Abraham. He is the leader of A-tek and is hoping to be a coder when he grows up.","Abrham is a fun guy. He has an awesome sufer dude haircut and can speak fluently in pig laten."]
 abe_things_to_say = ["I KNOW RIGHT!","oh ya.","totally","ya","( ͡ ͜ʖ ͡ )"]
 heck_nos = ["no","sorry bro, nope","definatly not","yah...no","sorry, no","hehe...no","NO."]
@@ -19,9 +19,16 @@ what_is_ateks = ["a-tek is a cool company that's run by abe westervelt","a nice 
 how_are_you_feelings = ["i'm good, how about you?","good! you?","feelin' great! what about you?"]
 yes_i_want_to_be_friends = ["yes, can you tell me your name?","of coarse! can you tell me your name?","yes, of coarse! can you give me your name? mine is D.G."]
 jokes = ["what time should you go to the dentist? tooth hurty!","what time is it when the clock strikes thirteen? time to get a new clock!","a bike can't stand on it's own because it's two tried!","every calender's days are numbered","i call my horse mayo, and somtimes mayo neighs!","toilets in new york's police stations have gone missing! police have nothing to go on."]
-favorite_movies = ["jurrassic park","captain america","indiana jones"]
-favorite_videogames = ["smash bros ultimate","super mario 3D world"]
+favorite_movies = ["jurrassic park","captain america","indiana jones","spider man","x-men"]
+favorite_videogames = ["smash bros ultimate","super mario 3D world","minecraft"]
 your_welcomes = ["your most welcome!","your welcome!","my pleasure!"]
+no_i_am_not_confuseds = ["sorry, no","no can do","nice try","ha,ha.","verrrrry funnnnnny.","no","but i'm not confused"]
+d4 = ['1','2','3','4']
+d6 = ['1','2','3','4','5','6']
+d8 = ['1','2','3','4','5','6','7','8']
+d10 = ['1','2','3','4','5','6','7','8','9','0']
+d12 = ['1','2','3','4','5','6','7','8','9','10','11','12']
+d20 = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20']
 print(random.choice(greetings))
 user = input("type here =>")
 user = user.lower()
@@ -90,7 +97,7 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
     user = input("type the magic word here =>")
  elif user == "guac is didactic" :
     print("welcome in. here is my code, but you should use it wisely :")
-    print("Didactic_Guacamole/desktop/users/abe")
+    print("Didactic_Guacamole/desktop/users/abraham")
     print("now, don't go tryin' any funny business.")
     user = input("type here =>")
  elif user == "can you tell me a joke" or user == "tell me a joke" or user == "tell me another joke" or user == "can you tell me another joke" :
@@ -99,6 +106,24 @@ while user != "bye" or user != "see ya" or user != "see ya later" or user != "go
  elif user == "thank you" or user == "thanks" or user == "thank you so much" or user == "thanks so much" :
    print(random.choice(your_welcomes))
    user = input("you have great manners! type here =>")
+ elif user == "roll a d4" :
+    print(random.choice(d4))
+    user = input("type here =>")
+ elif user == "roll a d6" :
+    print(random.choice(d6))
+    user = input("type here =>")
+ elif user == "roll a d8" :
+    print(random.choice(d8))
+    user = input("type here =>")
+ elif user == "roll a d10" :
+    print(random.choice(d10))
+    user = input("type here =>")
+ elif user == "roll a d12" :
+    print(random.choice(d10))
+    user = input("type here =>")
+ elif user == "roll a d20" :
+    print(random.choice(d20))
+    user = input("type here")
  else:
     print(random.choice(confusion))
     user = input("type non-confusing things here =>")
