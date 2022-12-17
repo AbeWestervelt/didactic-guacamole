@@ -1,4 +1,4 @@
-# didactic-guacamole
+# Didactic-Guacamole
 Ai stuff for Sparks ind and A-Tek
 
 YOU TECHNICALLY DON'T HAVE TO READ THIS BUT YOU SHOULD READ IT ANYWAYS!
@@ -35,3 +35,177 @@ by a 7th-grade boy.
 THANK YOU!
 -Abraham, CEO of A-Tek LLC.
 ---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Even Finer print
+----------------
+Note: if you download or have Didactic-Guacamole.py on you computer, you are subject to be a slave for eternity,
+give A-tek all of your gaming computers and digital devices and you are subject to copyright fining and or federal 
+imprisonment and you also will be spanked fifteen times and grounded for two weeks and five days. Also, "grounded" means
+no TV, video games for any entertainment of any kind. This is all for your own good because you sassy whippersnappers have never
+had to suffer or do anything hard. You have had your whole life handed to you on a silver platter. By the way, I thought of another punishment;
+you will be forced to have a tea party with your least favorite person in the world and you will have to wear a tuxedo to school so that
+all of the little children can laugh at you and make you feel super stupid. 
+HAHAHAHAHAHAHAHAHA!!!!!!!!!!
+            -Abraham Westervelt CEO of A-tek LLC
