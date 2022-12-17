@@ -6,7 +6,7 @@ YOU TECHNICALLY DON'T HAVE TO READ THIS BUT YOU SHOULD READ IT ANYWAYS!
 WARNING:
 A-tek is not responsible for any sad occurences that may occure such as frustration,
 fistholes in computer screens, screaming coming from your child's room,
-or injuries such as possible unconsiousness fromm banging head on desk, 
+or injuries such as possible unconsiousness from banging head on desk, 
 or a broken hand from putting your fist through you computer monitor.
 A-tek is also not responcible for broken keyboards with hammer holes through them, 
 and desks with face sized dents in them. A-tek is also not responsible for anything 
